@@ -77,3 +77,6 @@ lib/firebase.js
 # generated images
 ai/output.png
 *.png
+
+# Firebase / Google Cloud secrets
+backend/serviceAccountKey.json
