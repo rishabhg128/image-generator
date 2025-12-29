@@ -80,3 +80,6 @@ ai/output.png
 
 # Firebase / Google Cloud secrets
 backend/serviceAccountKey.json
+
+# IDE
+.idea/
