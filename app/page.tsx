@@ -18,7 +18,7 @@ const Spinner = () => (
 
 export default function Home() {
 
-  // 🔹 React state
+  //React state
   const [prompt, setPrompt] = useState("")
   const [image, setImage] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
