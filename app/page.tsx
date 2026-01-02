@@ -111,10 +111,20 @@ export default function Home() {
         minHeight: "100vh",
         position: "relative",
         display: "flex",
-        alignContent: "center",
+        alignItems: "center",
         justifyContent: "center",
         background: "#f5f5f5"
         }}>
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "radial-gradient(circle at left, rgba(99,102,241,0.18), transparent 50%), radial-gradient(circle at right, rgba(236,72,153,0.18), transparent 50%)",
+            zIndex: 0
+          }}
+        />
+
 
         <style>
         {`
@@ -164,15 +174,18 @@ export default function Home() {
           </div>
         )}
 
-      
+
+      {/* Card layout */}
       <div 
         style={{
+          position: "relative",
           background: "#fff",
           padding: 24,
           borderRadius: 12,
           width: "100%",
           maxWidth: 600,
           boxShadow: "0 10px 30px rgba(0,0,0,0.1)",
+          zIndex: 1 
         }}>
           <div
         style={{
@@ -216,7 +229,7 @@ export default function Home() {
               padding: "8px 16px",
               borderRadius: 6,
               border: "1px solid #ddd",
-              background: "#fff",
+              background: "#1781d8ff",
               color: "#444",
               fontSize: 14,
               cursor: "pointer"
@@ -226,8 +239,6 @@ export default function Home() {
           </button>
         </div>
       )}
-       
-
 
       <br /><br />
 
